@@ -6,7 +6,7 @@ router
         res.send('トップページです!');
     })
     .get('/about', (req, res) => {
-        res.send('アバウトページです');
+        res.send('アバウトページです!');
     });
 
 module.exports = router;
